@@ -268,6 +268,10 @@
                 </plugins>
             </build>
         </profile>
+        <distributionManagement>
+<repository> <id>releases</id> <name>Releases</name> <url>http://13.232.134.111:8081/nexus//content/repositories/releases</url> </repository>
+<snapshotRepository> <id>snapshots</id> <name>Snapshots</name> <url>http://18.224.72.141:8081/nexus/content/repositories/snapshots</url> </snapshotRepository>
+</distributionManagement>
         <profile>
             <id>maven3</id>
             <activation>
